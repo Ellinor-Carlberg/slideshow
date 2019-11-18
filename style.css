@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+
+}
+
+img {
+    position: absolute;
+    opacity: 1;
+    height: 100vh;
+    width: 100%;
+    transition: opacity 1000ms;
+
+}
+
+.show {
+    opacity: 0;
+}
